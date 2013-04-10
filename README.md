@@ -1,6 +1,6 @@
 UIColor+MLPFlatColors
 ================
-> Although the _UIColor_ class comes with built in convenience methods for producing standard colors, most of these colors are too bright and gaudy for any real use other than prototyping. So, here's a category for _UIColor_ that adds 20 new colors that developers may actually want to use in a real app, based off the current trend of flat UI color schemes. It's called _UIColor+MLPFlatColors_. 
+> Although the _UIColor_ class comes with built in convenience methods for producing standard colors, most of these colors are too bright and gaudy for any real use other than prototyping. So, here's a category for _UIColor_ that adds 20 new colors that developers may actually want to use in a real app, based off the current trend of flat or semi-flat UI color schemes. It's called _UIColor+MLPFlatColors_. 
 
 ![Screenshot](/colorsDemo.png "Screenshot")
 
@@ -25,7 +25,7 @@ You can also produce random flat colors with these methods:
 
 What to Expect in Future Updates
 ----------
-More colors and convenience methods.
+More colors and convenience methods related to flat UI themes.
 
 
 License
