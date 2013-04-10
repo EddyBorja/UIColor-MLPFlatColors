@@ -22,6 +22,11 @@ You can also produce random flat colors with these methods:
 `+ (UIColor *)randomFlatLightColor;`
 `+ (UIColor *)randomFlatDarkColor;`
 
+What to expect in future updates
+----------
+More colors and convenience methods.
+
+
 License
 --------
 _UIColor+MLPFlatColors_ uses the MIT License:
