@@ -1,13 +1,13 @@
 UIColor+MLPFlatColors
 ================
-> Although the _UIColor_ class comes with built in convenience methods for producing standard colors, most of these colors are too bright and gaudy for any real use other than prototyping. So, here's a category for _UIColor_ that adds 20 new colors that developers may actually want to use in a real app, based off the current trend of flat or semi-flat UI color schemes. It's called _UIColor+MLPFlatColors_. 
+> Although the _UIColor_ class comes with built in convenience methods for producing standard colors, most of these colors are too bright and gaudy for any real use other than prototyping. So, here's a category for _UIColor_ that adds 20 new colors that developers may actually want to use in a real app, based off the current trend of flat color schemes. It's called _UIColor+MLPFlatColors_. 
 
 ![Screenshot](/colorsDemo.png "Screenshot")
 
 
 About
 ---------
-_UIColor+MLPFlatColors_ is a category for _UIColor_ that adds class methods to conveniently produce **20 new colors** designed for flat interface designs. It also adds some methods for choosing a **random color** out of these new colors, and a **macro for converting hex values** to an RGB color. 
+_UIColor+MLPFlatColors_ is a category for _UIColor_ that adds class methods to conveniently produce **20 new colors** designed for flat or semi-flat interface designs. It also adds some methods for choosing a **random color** out of these new colors, and a **macro for converting hex values** to an RGB color. 
 
 
 Usage
