@@ -7,7 +7,7 @@ UIColor+MLPFlatColors
 
 About
 ---------
-_UIColor+MLPFlatColors_ is a category for _UIColor_ that adds 20 new class methods that produce colors designed for flat interface designs. It also adds some methods for choosing a random color out of these 20 new colors, and a macro for converting hex values to an RGB color. 
+_UIColor+MLPFlatColors_ is a category for _UIColor_ that adds class methods to conveniently produce **20 new colors** designed for flat interface designs. It also adds some methods for choosing a **random color** out of these new colors, and a **macro for converting hex values** to an RGB color. 
 
 
 Usage
