@@ -28,6 +28,16 @@ What to Expect in Future Updates
 More colors and convenience methods related to flat UI themes.
 
 
+Cocoapods
+-------
+
+CocoaPods are the best way to manage library dependencies in Objective-C projects.
+Learn more at http://cocoapods.org
+
+Add this to your podfile to add the UIColor+MLPFlatColors category to your project.
+`pod 'UIColor+MLPFlatColors',       '~> 1.0'`
+
+
 License
 --------
 _UIColor+MLPFlatColors_ uses the MIT License:
