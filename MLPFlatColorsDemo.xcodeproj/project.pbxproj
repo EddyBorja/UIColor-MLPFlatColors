@@ -24,6 +24,10 @@
 		8556B9501715C0B700AC67E9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8556B94D1715C0B700AC67E9 /* Default.png */; };
 		8556B9511715C0B700AC67E9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8556B94E1715C0B700AC67E9 /* Default@2x.png */; };
 		8556B9551715C13700AC67E9 /* UIColor+MLPFlatColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 8556B9541715C13700AC67E9 /* UIColor+MLPFlatColors.m */; };
+		85E716F11753096E00A992A0 /* libGoogleAnalytics_debug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85E716EF1753096E00A992A0 /* libGoogleAnalytics_debug.a */; };
+		85E716F21753096E00A992A0 /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85E716F01753096E00A992A0 /* libGoogleAnalytics.a */; };
+		85E716F4175309F400A992A0 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85E716F3175309F400A992A0 /* CoreData.framework */; };
+		85E716F617530A0100A992A0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85E716F517530A0100A992A0 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +65,15 @@
 		8556B94E1715C0B700AC67E9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		8556B9531715C13700AC67E9 /* UIColor+MLPFlatColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+MLPFlatColors.h"; path = "UIColor+MLPFlatColors/UIColor+MLPFlatColors.h"; sourceTree = SOURCE_ROOT; };
 		8556B9541715C13700AC67E9 /* UIColor+MLPFlatColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+MLPFlatColors.m"; path = "UIColor+MLPFlatColors/UIColor+MLPFlatColors.m"; sourceTree = SOURCE_ROOT; };
+		85E716EA1753096E00A992A0 /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAI.h; path = GoogleAnalytics/GAI.h; sourceTree = "<group>"; };
+		85E716EB1753096E00A992A0 /* GAITrackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAITrackedViewController.h; path = GoogleAnalytics/GAITrackedViewController.h; sourceTree = "<group>"; };
+		85E716EC1753096E00A992A0 /* GAITracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAITracker.h; path = GoogleAnalytics/GAITracker.h; sourceTree = "<group>"; };
+		85E716ED1753096E00A992A0 /* GAITransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAITransaction.h; path = GoogleAnalytics/GAITransaction.h; sourceTree = "<group>"; };
+		85E716EE1753096E00A992A0 /* GAITransactionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAITransactionItem.h; path = GoogleAnalytics/GAITransactionItem.h; sourceTree = "<group>"; };
+		85E716EF1753096E00A992A0 /* libGoogleAnalytics_debug.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleAnalytics_debug.a; path = GoogleAnalytics/libGoogleAnalytics_debug.a; sourceTree = "<group>"; };
+		85E716F01753096E00A992A0 /* libGoogleAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleAnalytics.a; path = GoogleAnalytics/libGoogleAnalytics.a; sourceTree = "<group>"; };
+		85E716F3175309F400A992A0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		85E716F517530A0100A992A0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +84,10 @@
 				8556B9121715C03B00AC67E9 /* UIKit.framework in Frameworks */,
 				8556B9141715C03B00AC67E9 /* Foundation.framework in Frameworks */,
 				8556B9161715C03B00AC67E9 /* CoreGraphics.framework in Frameworks */,
+				85E716F11753096E00A992A0 /* libGoogleAnalytics_debug.a in Frameworks */,
+				85E716F21753096E00A992A0 /* libGoogleAnalytics.a in Frameworks */,
+				85E716F4175309F400A992A0 /* CoreData.framework in Frameworks */,
+				85E716F617530A0100A992A0 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,6 +126,8 @@
 		8556B9101715C03B00AC67E9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				85E716F517530A0100A992A0 /* SystemConfiguration.framework */,
+				85E716F3175309F400A992A0 /* CoreData.framework */,
 				8556B9111715C03B00AC67E9 /* UIKit.framework */,
 				8556B9131715C03B00AC67E9 /* Foundation.framework */,
 				8556B9151715C03B00AC67E9 /* CoreGraphics.framework */,
@@ -134,6 +153,7 @@
 		8556B9181715C03B00AC67E9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				85E716E91753096200A992A0 /* GAI */,
 				8556B9191715C03B00AC67E9 /* MLPFlatColorsDemo-Info.plist */,
 				8556B91A1715C03B00AC67E9 /* InfoPlist.strings */,
 				8556B91D1715C03B00AC67E9 /* main.m */,
@@ -171,6 +191,20 @@
 				8556B9541715C13700AC67E9 /* UIColor+MLPFlatColors.m */,
 			);
 			name = "UIColor+MLPFlatColors";
+			sourceTree = "<group>";
+		};
+		85E716E91753096200A992A0 /* GAI */ = {
+			isa = PBXGroup;
+			children = (
+				85E716EA1753096E00A992A0 /* GAI.h */,
+				85E716EB1753096E00A992A0 /* GAITrackedViewController.h */,
+				85E716EC1753096E00A992A0 /* GAITracker.h */,
+				85E716ED1753096E00A992A0 /* GAITransaction.h */,
+				85E716EE1753096E00A992A0 /* GAITransactionItem.h */,
+				85E716EF1753096E00A992A0 /* libGoogleAnalytics_debug.a */,
+				85E716F01753096E00A992A0 /* libGoogleAnalytics.a */,
+			);
+			name = GAI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -399,6 +433,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MLPFlatColorsDemo/MLPFlatColorsDemo-Prefix.pch";
 				INFOPLIST_FILE = "MLPFlatColorsDemo/MLPFlatColorsDemo-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/MLPFlatColorsDemo/GoogleAnalytics\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -410,6 +448,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MLPFlatColorsDemo/MLPFlatColorsDemo-Prefix.pch";
 				INFOPLIST_FILE = "MLPFlatColorsDemo/MLPFlatColorsDemo-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/MLPFlatColorsDemo/GoogleAnalytics\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
