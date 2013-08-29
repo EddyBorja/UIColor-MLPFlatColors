@@ -24,6 +24,8 @@
 		8556B9501715C0B700AC67E9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8556B94D1715C0B700AC67E9 /* Default.png */; };
 		8556B9511715C0B700AC67E9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8556B94E1715C0B700AC67E9 /* Default@2x.png */; };
 		8556B9551715C13700AC67E9 /* UIColor+MLPFlatColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 8556B9541715C13700AC67E9 /* UIColor+MLPFlatColors.m */; };
+		85E5DD1817CFB9D9006D8F2B /* DEMOFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85E5DD1617CFB9D9006D8F2B /* DEMOFooterView.xib */; };
+		85E5DD1A17CFC360006D8F2B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 85E5DD1917CFC360006D8F2B /* icon.png */; };
 		85E716F11753096E00A992A0 /* libGoogleAnalytics_debug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85E716EF1753096E00A992A0 /* libGoogleAnalytics_debug.a */; };
 		85E716F21753096E00A992A0 /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85E716F01753096E00A992A0 /* libGoogleAnalytics.a */; };
 		85E716F4175309F400A992A0 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85E716F3175309F400A992A0 /* CoreData.framework */; };
@@ -65,6 +67,8 @@
 		8556B94E1715C0B700AC67E9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		8556B9531715C13700AC67E9 /* UIColor+MLPFlatColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+MLPFlatColors.h"; path = "UIColor+MLPFlatColors/UIColor+MLPFlatColors.h"; sourceTree = SOURCE_ROOT; };
 		8556B9541715C13700AC67E9 /* UIColor+MLPFlatColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+MLPFlatColors.m"; path = "UIColor+MLPFlatColors/UIColor+MLPFlatColors.m"; sourceTree = SOURCE_ROOT; };
+		85E5DD1717CFB9D9006D8F2B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DEMOFooterView.xib; sourceTree = "<group>"; };
+		85E5DD1917CFC360006D8F2B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		85E716EA1753096E00A992A0 /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAI.h; path = GoogleAnalytics/GAI.h; sourceTree = "<group>"; };
 		85E716EB1753096E00A992A0 /* GAITrackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAITrackedViewController.h; path = GoogleAnalytics/GAITrackedViewController.h; sourceTree = "<group>"; };
 		85E716EC1753096E00A992A0 /* GAITracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAITracker.h; path = GoogleAnalytics/GAITracker.h; sourceTree = "<group>"; };
@@ -145,6 +149,7 @@
 				8556B9291715C03B00AC67E9 /* DEMOViewController.h */,
 				8556B92A1715C03B00AC67E9 /* DEMOViewController.m */,
 				8556B92C1715C03B00AC67E9 /* DEMOViewController.xib */,
+				85E5DD1617CFB9D9006D8F2B /* DEMOFooterView.xib */,
 				8556B9181715C03B00AC67E9 /* Supporting Files */,
 			);
 			path = MLPFlatColorsDemo;
@@ -159,6 +164,7 @@
 				8556B91D1715C03B00AC67E9 /* main.m */,
 				8556B91F1715C03B00AC67E9 /* MLPFlatColorsDemo-Prefix.pch */,
 				8556B94C1715C0B700AC67E9 /* Default-568h@2x.png */,
+				85E5DD1917CFC360006D8F2B /* icon.png */,
 				8556B94D1715C0B700AC67E9 /* Default.png */,
 				8556B94E1715C0B700AC67E9 /* Default@2x.png */,
 			);
@@ -279,6 +285,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85E5DD1817CFB9D9006D8F2B /* DEMOFooterView.xib in Resources */,
+				85E5DD1A17CFC360006D8F2B /* icon.png in Resources */,
 				8556B91C1715C03B00AC67E9 /* InfoPlist.strings in Resources */,
 				8556B92E1715C03B00AC67E9 /* DEMOViewController.xib in Resources */,
 				8556B94F1715C0B700AC67E9 /* Default-568h@2x.png in Resources */,
@@ -366,6 +374,14 @@
 				8556B93F1715C03C00AC67E9 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		85E5DD1617CFB9D9006D8F2B /* DEMOFooterView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85E5DD1717CFB9D9006D8F2B /* en */,
+			);
+			name = DEMOFooterView.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

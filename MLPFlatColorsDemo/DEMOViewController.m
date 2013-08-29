@@ -40,13 +40,7 @@
            viewForSupplementaryElementOfKind:(NSString *)kind
                                  atIndexPath:(NSIndexPath *)indexPath
 {
-    UICollectionReusableView *reusableview = nil;
- 
-    if (kind == UICollectionElementKindSectionFooter) {
-        reusableview = self.footerView;
-    }
-    
-    return reusableview;
+    return [self.collectionView dequeueReusableSupplementaryViewOfKind:UICollectionElementKindSectionFooter withReuseIdentifier:@"Footer" forIndexPath:indexPath];
 }
 
 - (void)viewDidLoad
@@ -54,6 +48,8 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
+    UINib *footerNib = [UINib nibWithNibName:@"DEMOFooterView" bundle:[NSBundle mainBundle]];
+    [self.collectionView registerNib:footerNib forSupplementaryViewOfKind:UICollectionElementKindSectionFooter withReuseIdentifier:@"Footer"];
     [self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"Cell"];
 }
 
