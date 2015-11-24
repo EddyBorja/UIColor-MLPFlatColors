@@ -28,6 +28,9 @@ What to Expect in Future Updates
 More colors and convenience methods related to flat UI themes.
 
 
+<!---
+Remove comment when carthage support is in
+
 Carthage
 -------
 Carthage is the simplest way to include frameworks in your Cocoa applications.
@@ -39,7 +42,7 @@ To use the latest version of this library, add this to your Cartfile.
 # Use the latest version
 github "EddyBorja/UIColor-MLPFlatColors"
 ```
-
+-->
 
 
 License
@@ -54,6 +57,11 @@ _UIColor+MLPFlatColors_ uses the MIT License:
 
 >THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
+
+Contributing
+---------
+
+These days I'm unable to continue working on this project due to other obligations, but I'm always open to pull requests. 
 
 
 More Stuff
