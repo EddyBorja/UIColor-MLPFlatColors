@@ -28,14 +28,18 @@ What to Expect in Future Updates
 More colors and convenience methods related to flat UI themes.
 
 
-Cocoapods
+Carthage
 -------
+Carthage is the simplest way to include frameworks in your Cocoa applications.
 
-CocoaPods are the best way to manage library dependencies in Objective-C projects.
-Learn more at http://cocoapods.org
+Learn more at https://github.com/Carthage/Carthage
 
-Add this to your podfile to add the UIColor+MLPFlatColors category to your project.
-`pod 'UIColor+MLPFlatColors',       '~> 1.0'`
+To use the latest version of this library, add this to your Cartfile.
+```
+# Use the latest version
+github "EddyBorja/UIColor-MLPFlatColors"
+```
+
 
 
 License
